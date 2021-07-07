@@ -1,0 +1,49 @@
+html{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*, *:before, *:after{
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+body{
+    margin: 20 px 0;
+    padding: 0 20px;
+    line-height: 1;
+    color: #202020;
+    background-color: #fbfbfb;
+
+}
+.container{
+    display: flex;
+    max-width: 900px;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container .pokemon{
+    width: 49%;
+    background-color: white;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    box-shadow: rgba(0, 0, 0, 0.125);
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.container .pokemon_name{
+    background-color: #ecd018;
+    text-align: center;
+    padding: 5px;
+}
+.container .pokemon_image{
+    padding: 20px;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+.container .pokemon_evolution{
+    background-color: sandybrown;
+    padding: 5px;
+}
