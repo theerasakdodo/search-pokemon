@@ -15,14 +15,8 @@ body{
     background-color: #fbfbfb;
 
 }
-.container{
-    display: flex;
-    max-width: 900px;
-    margin: auto;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-.container .pokemon{
+
+.pokemon{
     width: 49%;
     background-color: white;
     background-clip: border-box;
@@ -31,19 +25,17 @@ body{
     box-shadow: rgba(0, 0, 0, 0.125);
     overflow: hidden;
     margin-bottom: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
-.container .pokemon_name{
+.pokemon_name{
     background-color: #ecd018;
     text-align: center;
     padding: 5px;
 }
-.container .pokemon_image{
+.pokemon_image{
     padding: 20px;
-    min-height: 300px;
-    display: flex;
     align-items: center;
+    text-align: center;
 }
-.container .pokemon_evolution{
-    background-color: sandybrown;
-    padding: 5px;
-}
+

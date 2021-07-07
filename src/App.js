@@ -5,7 +5,8 @@ import {
   ApolloProvider
  
 } from "@apollo/client";
-import { PokemonsContainer } from "./containers/PokemonsContainer";
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 import "./App.css";
 import { Search } from "./components/Search";
 function App() {
@@ -18,7 +19,7 @@ function App() {
     <ApolloProvider client={client}>
       <main>
         <Search/>
-        <PokemonsContainer />
+        {/* <PokemonsContainer /> */}
       </main>
     </ApolloProvider>
   );
